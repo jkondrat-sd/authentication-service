@@ -47,7 +47,7 @@ services:
       # ===================================================================
 
   ladesa-ro-sso-db:
-    image: bitnami/postgresql:15
+    image: soldevelo/postgresql:15
     container_name: ladesa-ro-sso-db
 
     volumes:
